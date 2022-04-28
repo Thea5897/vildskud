@@ -43,6 +43,12 @@ h2 {
   font-size: 40px;
   color: var(--font);
 }
+
+h4 {
+  font-family: quicksand;
+  font-size: 25px;
+  color: white;
+}
 p {
   font-family: quicksand;
   color: var(--font);
@@ -52,7 +58,6 @@ button {
   color: var(--font);
   font-weight: 700;
   cursor: pointer;
-  margin-top: 0.5rem;
 }
 
 button:hover {
@@ -83,7 +88,7 @@ button:hover {
 }
 .section_3 p {
   padding-left: 25px;
-  padding-bottom: 400px;
+  padding-bottom: 370px;
 }
 .section_3 button {
   display: flex;
@@ -93,15 +98,19 @@ button:hover {
   background-color: var(--zeppelin);
   border: 1px solid var(--font);
   border-radius: 12px;
-  margin-right: 220px;
+  margin-right: 190px;
   margin-left: 20px;
+  padding-block: 2px;
+  padding-inline: 10px;
 }
 .button_2 {
   border: 1px solid var(--font);
   border-radius: 12px;
   margin-top: 10px;
-  margin-right: 220px;
+  margin-right: 190px;
   margin-left: 20px;
+  padding-block: 2px;
+  padding-inline: 10px;
 }
 
 .section_4 {
@@ -119,11 +128,13 @@ button:hover {
 }
 .skammer_1 {
   background-color: var(--christianshavn);
+  border: 1px solid var(--font);
   margin-left: 25px;
   margin-top: 25px;
-  margin-right: 180px;
-  padding-left: 20px;
+  margin-right: 100px;
   border-radius: 12px;
+  padding-block: 2px;
+  padding-inline: 10px;
 }
 
 .skammer_2 {
@@ -134,9 +145,6 @@ button:hover {
   padding-left: 25px;
   font-weight: bold;
 }
-.wish {
-  padding-top: 10px;
-}
 
 .wish_img {
   display: flex;
@@ -146,9 +154,10 @@ button:hover {
   border: 1px solid var(--font);
   margin-left: 25px;
   margin-top: 25px;
-  margin-right: 180px;
-  padding-left: 20px;
+  margin-right: 100px;
   border-radius: 12px;
+  padding-block: 2px;
+  padding-inline: 10px;
 }
 
 .wish_2 {
@@ -160,7 +169,53 @@ button:hover {
   font-weight: bold;
 }
 
+@media (min-width: 600px) {
+  .linje_1 {
+    display: flex;
+  }
+  .section_3 {
+    flex-basis: 50%;
+  }
+  .section_3 p {
+    padding-right: 20px;
+  }
+  .skammer_1 {
+    margin-right: 80px;
+  }
+  .section_4 {
+    margin-top: 50px;
+    flex-basis: 50%;
+  }
+}
+@media (min-width: 1000px) {
+  .section_3 {
+    height: 80vh;
+    padding-top: 80px;
+  }
+  .section_3 p {
+    padding-right: 200px;
+    padding-bottom: 300px;
+  }
+  .button_1,
+  .button_2 {
+    margin-right: 450px;
+  }
+  .section_4 {
+    display: flex;
+  }
+  .skammer_1 {
+    margin-right: 5px;
+  }
+  .wish_1 {
+    margin-right: 5px;
+  }
+  .section_4 {
+    height: 80vh;
+  }
+}
+
 .section_5 {
+  display: none;
   height: 120vh;
   background-color: var(--anemonen);
   margin-top: 0px;
@@ -179,14 +234,43 @@ button:hover {
 }
 .section_6 p {
   padding-left: 25px;
-  padding-bottom: 470px;
+  padding-bottom: 430px;
 }
 .section_6 button {
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: 25px;
   border: 1px solid var(--font);
   border-radius: 12px;
+  padding-block: 2px;
+  padding-inline: 10px;
+}
+
+@media (min-width: 600px) {
+  .linje_2 {
+    display: flex;
+  }
+  .section_5 {
+    display: block;
+    flex-basis: 50%;
+  }
+  .section_6 {
+    flex-basis: 50%;
+  }
+  .section_6 p {
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section_5 {
+    height: 80vh;
+  }
+  .section_6 {
+    height: 80vh;
+    padding-top: 80px;
+  }
+  .section_6 p {
+    padding-bottom: 330px;
+  }
 }
 
 .section_7 {
@@ -200,22 +284,46 @@ button:hover {
 }
 .section_7 p {
   padding-left: 25px;
-  padding-bottom: 470px;
+  padding-bottom: 430px;
 }
 .section_7 button {
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: 25px;
   border: 1px solid var(--font);
   border-radius: 12px;
+  padding-block: 2px;
+  padding-inline: 10px;
 }
 
 .section_8 {
+  display: none;
   height: 120vh;
   background-color: var(--christianshavn);
   margin-top: 0px;
   padding-bottom: 475px;
 }
+
+@media (min-width: 600px) {
+  .linje_3 {
+    display: flex;
+  }
+  .section_7 {
+    flex-basis: 50%;
+  }
+  .section_8 {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section_7 {
+    height: 80vh;
+    padding-top: 80px;
+  }
+  .section_7 p {
+    padding-bottom: 360px;
+  }
+}
+
 .section_9 {
   display: flex;
   justify-content: center;
@@ -229,4 +337,26 @@ button:hover {
   padding-top: 380px;
   height: 120vh;
   background-color: var(--zeppelin);
+  font-size: 40px;
+}
+@media (min-width: 600px) {
+  .linje_4 {
+    display: flex;
+  }
+  .section_9 {
+    flex-basis: 50%;
+  }
+  .section_10 {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 600px) {
+  .section_9 {
+    height: 80vh;
+  }
+  .section_10 {
+    height: 80vh;
+    padding-top: 300px;
+  }
 }
