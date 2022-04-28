@@ -26,6 +26,7 @@ font-family: "Quicksand", sans-serif; */
   --vox: #586466;
   --zeppelin: #cdaca8;
   --font: white;
+  --box: #e8cfc0;
 }
 
 body {
@@ -33,7 +34,6 @@ body {
 }
 
 img {
-  margin-top: 50px;
   width: 300px;
   height: auto;
   display: grid;
@@ -52,6 +52,7 @@ button {
   color: var(--font);
 }
 .section_1 {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -63,10 +64,10 @@ button {
 }
 
 .section_3 {
+  height: 110vh;
   background-color: var(--christianshavn);
   margin-top: 50px;
-  padding-top: 150px;
-  padding-bottom: 10px;
+  padding-top: 250px;
 }
 .section_3 h2 {
   padding-left: 25px;
@@ -74,7 +75,7 @@ button {
 }
 .section_3 p {
   padding-left: 25px;
-  padding-bottom: 150px;
+  padding-bottom: 375px;
 }
 .section_3 button {
   display: flex;
@@ -96,6 +97,7 @@ button {
 }
 
 .section_4 {
+  height: 110vh;
   background-color: var(--xenon);
   margin-top: 50px;
   padding-top: 100px;
@@ -124,13 +126,16 @@ button {
   padding-left: 25px;
   font-weight: bold;
 }
+.wish {
+  padding-top: 90px;
+}
 
 .wish_img {
   display: flex;
   justify-content: center;
 }
 .wish_1 {
-  background-color: var(--christianshavn);
+  border: 1px solid var(--font);
   margin-left: 25px;
   margin-top: 25px;
   margin-right: 180px;
@@ -145,4 +150,65 @@ button {
 .wish_3 {
   padding-left: 25px;
   font-weight: bold;
+}
+
+.section_5 {
+  height: 110vh;
+  background-color: var(--anemonen);
+  margin-top: 0px;
+  padding-bottom: 475px;
+}
+
+.section_6 {
+  height: 110vh;
+  background-color: var(--box);
+  padding-top: 150px;
+  padding-bottom: 10px;
+}
+.section_6 h2 {
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
+.section_6 p {
+  padding-left: 25px;
+  padding-bottom: 150px;
+}
+.section_6 button {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 25px;
+  border: 1px solid var(--font);
+  border-radius: 12px;
+}
+
+.section_7 {
+  background-color: var(--zeppelin);
+  padding-top: 150px;
+}
+.section_7 h2 {
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
+.section_7 p {
+  padding-left: 25px;
+  padding-bottom: 150px;
+}
+.section_7 button {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 25px;
+  border: 1px solid var(--font);
+  border-radius: 12px;
+}
+
+.section_8 {
+  height: 70vh;
+  background-color: var(--christianshavn);
+  margin-top: 0px;
+  padding-bottom: 475px;
+}
+.section_9 {
+  background-color: var(--vox);
+  margin-top: 0px;
+  height: 70vh;
 }
