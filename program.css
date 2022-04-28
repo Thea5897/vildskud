@@ -230,11 +230,14 @@ b {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .oversigt {
+  }
 }
 
 @media (min-width: 900px) {
   .first_section {
-    margin-top: 9rem;
+    margin-top: 8rem;
   }
 
   .programmet {
