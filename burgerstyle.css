@@ -50,6 +50,7 @@
 .menu li a {
   color: white;
   font-size: large;
+  font-family: quicksand;
 }
 
 /* .logo_menu_stor {
@@ -88,7 +89,7 @@
 @media only screen and (min-width: 730px) {
 }
 
-@media only screen and (min-width: 908px) {
+@media only screen and (min-width: 900px) {
   #menuknap {
     display: none;
   }
@@ -99,6 +100,7 @@
 
   .menu li {
     display: inline;
+    margin-inline: 2.5rem;
   }
 
   .hidden {
@@ -107,7 +109,7 @@
 
   .menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-flow: row;
     flex-wrap: wrap;
     background-color: #718083;

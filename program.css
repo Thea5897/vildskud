@@ -85,8 +85,9 @@ button:hover {
 }
 
 main {
-  max-width: 1000px;
   margin: 2rem;
+  display: grid;
+  justify-content: center;
 }
 
 .programmet {
@@ -158,8 +159,13 @@ main {
   width: 15rem;
 }
 
+.first_section {
+  max-width: 1000px;
+}
+
 .second_section {
   margin-top: 4rem;
+  max-width: 1000px;
 }
 
 hr {
@@ -217,4 +223,32 @@ hr {
 
 b {
   font-weight: 700;
+}
+
+@media (min-width: 650px) {
+  .programmet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .first_section {
+    margin-top: 9rem;
+  }
+
+  .menu_logo_stor {
+    margin: 0;
+    display: none;
+    padding: 0;
+  }
+
+  .bottom_li_img {
+    display: none;
+  }
+
+  .programmet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
