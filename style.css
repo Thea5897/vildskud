@@ -50,7 +50,15 @@ p {
 button {
   font-family: quicksand;
   color: var(--font);
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0.5rem;
 }
+
+button:hover {
+  text-shadow: 1px 1px 6px rgb(27, 68, 58);
+}
+
 .section_1 {
   margin-top: 50px;
   display: flex;

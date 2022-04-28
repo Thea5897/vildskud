@@ -43,6 +43,13 @@ h2 {
   font-size: 40px;
   color: var(--font);
 }
+
+h4 {
+  font-family: quicksand;
+  font-size: 25px;
+  color: white;
+}
+
 p {
   font-family: quicksand;
   color: var(--font);
@@ -50,6 +57,13 @@ p {
 button {
   font-family: quicksand;
   color: var(--font);
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  text-shadow: 1px 1px 6px rgb(27, 68, 58);
 }
 
 .program_h2 {
@@ -62,4 +76,72 @@ button {
   font-size: medium;
   margin-inline: 1rem;
   margin-top: 0.5rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem;
+}
+
+.programmet {
+  /* display: grid; */
+  justify-items: center;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.forestilling {
+  max-width: 75vw;
+}
+
+.christianshavn_h4 {
+  background-color: var(--christianshavn);
+  font-size: large;
+  border-radius: 20px;
+  padding-inline: 10px;
+  padding-block: 2px;
+  border: 1px solid;
+  margin-bottom: 0.5rem;
+}
+
+.xenon_h4 {
+  background-color: var(--xenon);
+  font-size: large;
+  border-radius: 20px;
+  padding-inline: 10px;
+  padding-block: 2px;
+  border: 1px solid;
+  margin-bottom: 0.5rem;
+}
+
+.vox_h4 {
+  background-color: var(--vox);
+  font-size: large;
+  border-radius: 20px;
+  padding-inline: 10px;
+  padding-block: 2px;
+  border: 1px solid;
+  margin-bottom: 0.5rem;
+}
+
+.anemonen_h4 {
+  background-color: var(--anemonen);
+  font-size: large;
+  border-radius: 20px;
+  padding-inline: 10px;
+  padding-block: 2px;
+  border: 1px solid;
+  margin-bottom: 0.5rem;
+}
+
+.zeppelin_h4 {
+  background-color: var(--zeppelin);
+  font-size: large;
+  border-radius: 20px;
+  padding-inline: 10px;
+  padding-block: 2px;
+  border: 1px solid;
+  margin-bottom: 0.5rem;
 }
