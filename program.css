@@ -237,16 +237,6 @@ b {
     margin-top: 9rem;
   }
 
-  .menu_logo_stor {
-    margin: 0;
-    display: none;
-    padding: 0;
-  }
-
-  .bottom_li_img {
-    display: none;
-  }
-
   .programmet {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

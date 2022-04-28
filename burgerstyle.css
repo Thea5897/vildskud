@@ -98,6 +98,12 @@
     opacity: 1;
   }
 
+  .menu_logo_stor {
+    margin: 0;
+    display: none;
+    padding: 0;
+  }
+
   .menu li {
     display: inline;
     margin-inline: 2.5rem;
@@ -133,6 +139,10 @@
   }
 
   #logo_burger {
+    display: none;
+  }
+
+  .bottom_li_img {
     display: none;
   }
 
