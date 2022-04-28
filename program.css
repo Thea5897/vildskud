@@ -1,0 +1,65 @@
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+}
+
+/* font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif; */
+:root {
+  --background-color: #718083;
+  --christianshavn: #8e5951;
+  --xenon: #d3a285;
+  --anemonen: #a8b1b3;
+  --vox: #586466;
+  --zeppelin: #cdaca8;
+  --font: white;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+img {
+  margin-top: 50px;
+  width: 300px;
+  height: auto;
+  display: grid;
+}
+h2 {
+  font-family: oswald;
+  font-size: 40px;
+  color: var(--font);
+}
+p {
+  font-family: quicksand;
+  color: var(--font);
+}
+button {
+  font-family: quicksand;
+  color: var(--font);
+}
+
+.program_h2 {
+  text-align: center;
+  font-size: x-large;
+}
+
+.program_p {
+  text-align: center;
+  font-size: medium;
+  margin-inline: 1rem;
+  margin-top: 0.5rem;
+}
