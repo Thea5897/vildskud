@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="burgerstyle.css" />
+    <link rel="stylesheet" href="program.css" />
+
+    <title>Vildskud</title>
+  </head>
+</html>
+<body>
+  <header>
+    <nav>
+      <div class="menu_support">
+        <a href="index.html"
+          ><img src="img/logo.svg" alt="logo" id="logo_burger"
+        /></a>
+        <div id="menuknap">☰</div>
+      </div>
+
+      <ul class="menu hidden">
+        <li><a href="#0">Program</a></li>
+        <li><a href="om-os.html">Om Vildskud</a></li>
+        <!-- <li class="logo_menu_stor_container">
+              <a href="#0"> <img src="" alt="logo" class="logo_menu_stor" /></a>
+            </li> -->
+        <li><a href="index.html">Billetter</a></li>
+        <li class="bottom_li_img">
+          <a href="#0">
+            <img src="img/logo.svg" alt="logo" class="menu_logo_stor"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="forside_div_knap">
+    <a href="index.html"
+      ><img src="img/logo.svg" alt="logo" class="forside_knap"
+    /></a>
+  </div>
+
+  <main>
+    <section class="first_section">
+      <h2>Køb dine billetter til Vildskud 2022</h2>
+      <h4>
+        Billetsalget er nu startet til årets vildeste teater festival! Være
+        hurtig for at sikre dig en billet til dine foretrukne forestillinger.
+      </h4>
+
+      <form action="">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="billet_type">Valgte forestilling</label>
+          </div>
+          <div class="col-75">
+            <select id="billet_type" name="billet_type">
+              <option value="skammer">Skammer du dig nu?</option>
+              <option value="wish">Wish</option>
+              <option value="mona">Mona Lisa natten</option>
+              <option value="opstod">Et surt opstød</option>
+              <option value="korer">Alt kører, ik</option>
+              <option value="ret">Stå ret, få ret</option>
+              <option value="maskeret">Maskeret</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Komment</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 100px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Bestil & Betal Nu" />
+        </div>
+      </form>
+
+      <p class="billet_side">Drømmer du også om at være frivillig?</p>
+      <p>
+        På Vildskud kan man lave friviligt arbejde, og samtidig nyde den fulde
+        teateroplevelse. Frivillige vagter er typisk 4-6 timer lange, og består
+        af at lave drinks, servere popcorn, scanne billetter og meget mere.
+        Samtidig med at du er frivillig, får du gratis adgang til alle
+        forestillingerne på festivalen.
+      </p>
+      <h4 class="billet_side">Lyder dette som noget for dig?</h4>
+      <div class="knap_holder">
+        <button class="billet_side">Bliv frivillig!</button>
+      </div>
+    </section>
+    <div class="img_holder">
+      <img src="img/forsidebillede.svg" alt="picture" />
+    </div>
+  </main>
+  <footer>
+    <div class="text">
+      <p>Samarbejdspartnere</p>
+      <p>Teamet bag</p>
+      <p>Kontakt os</p>
+      <p>Cookiepolitik</p>
+      <p>Privatlivspolitik</p>
+    </div>
+    <div class="social">
+      <div class="facebook">
+        <img class="face" src="footer/facebook.png" alt="facebook logo" />
+      </div>
+      <div class="instagram">
+        <img class="insta" src="footer/instagram.png" alt="instagram logo" />
+      </div>
+    </div>
+    <div class="spons">
+      <img src="footer/sponsor.png" alt="Sponsor" />
+    </div>
+  </footer>
+  <script src="burger.js"></script>
+</body>
