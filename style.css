@@ -84,11 +84,15 @@ button {
   background-color: var(--zeppelin);
   border: 1px solid var(--font);
   border-radius: 12px;
+  margin-right: 220px;
+  margin-left: 20px;
 }
 .button_2 {
   border: 1px solid var(--font);
   border-radius: 12px;
   margin-top: 10px;
+  margin-right: 220px;
+  margin-left: 20px;
 }
 
 .section_4 {
@@ -99,7 +103,46 @@ button {
   margin-top: 0px;
 }
 
-.img_1 {
+.skammer_img {
   display: flex;
   justify-content: center;
+}
+.skammer_1 {
+  background-color: var(--christianshavn);
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-right: 180px;
+  padding-left: 20px;
+  border-radius: 12px;
+}
+
+.skammer_2 {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.skammer_3 {
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.wish_img {
+  display: flex;
+  justify-content: center;
+}
+.wish_1 {
+  background-color: var(--christianshavn);
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-right: 180px;
+  padding-left: 20px;
+  border-radius: 12px;
+}
+
+.wish_2 {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.wish_3 {
+  padding-left: 25px;
+  font-weight: bold;
 }
