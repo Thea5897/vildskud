@@ -44,6 +44,12 @@ h2 {
   color: var(--font);
 }
 
+h3 {
+  font-family: quicksand;
+  color: white;
+  font-size: medium;
+}
+
 h4 {
   font-family: quicksand;
   font-size: 25px;
@@ -90,6 +96,7 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  place-items: center;
 }
 
 .forestilling {
@@ -104,6 +111,7 @@ main {
   padding-block: 2px;
   border: 1px solid;
   margin-bottom: 0.5rem;
+  width: 15rem;
 }
 
 .xenon_h4 {
@@ -114,6 +122,7 @@ main {
   padding-block: 2px;
   border: 1px solid;
   margin-bottom: 0.5rem;
+  width: 15rem;
 }
 
 .vox_h4 {
@@ -124,6 +133,7 @@ main {
   padding-block: 2px;
   border: 1px solid;
   margin-bottom: 0.5rem;
+  width: 15rem;
 }
 
 .anemonen_h4 {
@@ -134,6 +144,7 @@ main {
   padding-block: 2px;
   border: 1px solid;
   margin-bottom: 0.5rem;
+  width: 15rem;
 }
 
 .zeppelin_h4 {
@@ -144,4 +155,66 @@ main {
   padding-block: 2px;
   border: 1px solid;
   margin-bottom: 0.5rem;
+  width: 15rem;
+}
+
+.second_section {
+  margin-top: 4rem;
+}
+
+hr {
+  border: 1px solid var(--vox);
+  margin-top: 1rem;
+}
+
+.oversigt {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.oversigt_h3 {
+  margin-top: 3rem;
+  font-size: small;
+}
+
+.oversigt_h4 {
+  font-size: medium;
+  font-weight: 800;
+}
+
+.p_oversigt {
+  margin-top: 8px;
+}
+
+#dag_oversigt {
+  width: 40vw;
+  height: 30vh;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.dag_oversigt_chrisitanshavn {
+  background-color: var(--christianshavn);
+}
+
+.dag_oversigt_vox {
+  background-color: var(--vox);
+}
+
+.dag_oversigt_anemonen {
+  background-color: var(--anemonen);
+}
+
+.dag_oversigt_zeppelin {
+  background-color: var(--zeppelin);
+}
+
+.dag_oversigt_xenon {
+  background-color: var(--xenon);
+}
+
+b {
+  font-weight: 700;
 }
