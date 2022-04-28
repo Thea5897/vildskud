@@ -1,0 +1,145 @@
+/* BURGERMENU */
+.hidden {
+  display: none !important;
+  /*transform:scale(0);*/
+  /* transform: translateX(-100%); */
+}
+
+.menu_support {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin: 1rem;
+}
+
+#menuknap {
+  display: flex;
+  place-self: right;
+  justify-content: right;
+  color: white;
+  font-size: 2.3rem;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  transition: 0.2s;
+  padding-left: 0;
+  transform-origin: top left;
+  font-family: Righteous;
+  color: var(--primary-color);
+  font-size: 2.3rem;
+  position: fixed;
+  background-color: #718083;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  z-index: 3;
+}
+
+.menu li {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.menu li a {
+  color: white;
+  font-size: large;
+}
+
+/* .logo_menu_stor {
+    display: none;
+  }
+  
+  .logo_menu_stor_container {
+    margin: 0.2rem;
+    display: none;
+  } */
+
+.menu_logo_stor {
+  height: 4rem;
+  width: 4rem;
+}
+
+#logo_menu {
+  display: none;
+  cursor: pointer;
+}
+
+#logo_burger {
+  display: inline;
+  height: 3.5rem;
+  width: 7rem;
+  margin: 0;
+}
+
+@media only screen and (min-width: 485px) {
+  .section_container {
+    margin-inline: 1rem;
+    margin-top: 10rem;
+  }
+}
+
+@media only screen and (min-width: 730px) {
+}
+
+@media only screen and (min-width: 908px) {
+  #menuknap {
+    display: none;
+  }
+  .menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .menu li {
+    display: inline;
+  }
+
+  .hidden {
+    display: flex !important;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    flex-wrap: wrap;
+    background-color: #718083;
+    /* margin-top: 30px; */
+    font-family: Righteous;
+    color: white;
+    top: 0;
+    font-size: 2.3rem;
+    height: 7vh;
+    margin-top: 0;
+  }
+
+  .logo_menu_stor {
+    display: inline;
+  }
+
+  #logo_menu {
+    display: block;
+    height: 8vh;
+    width: 4rem;
+  }
+
+  #logo_burger {
+    display: none;
+  }
+
+  .menu_support {
+    margin: 0;
+  }
+
+  .logo_menu_lille {
+    display: none;
+  }
+  /*BURGERMENU SLUT*/
+}
