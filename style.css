@@ -362,6 +362,22 @@ button:hover {
   }
 }
 
+@media (min-width: 1200px) {
+  .section_7 {
+    padding: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .section_6 {
+    padding: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .section_3 {
+    padding: 3rem;
+  }
+}
+
 .text {
   text-align: center;
   padding-top: 80px;

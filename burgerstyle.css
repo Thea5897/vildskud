@@ -79,6 +79,14 @@
   margin: 0;
 }
 
+.forside_knap {
+  width: 50px;
+}
+
+.forside_div_knap {
+  display: none;
+}
+
 @media only screen and (min-width: 485px) {
   .section_container {
     margin-inline: 1rem;
@@ -104,9 +112,26 @@
     padding: 0;
   }
 
+  .forside_div_knap {
+    display: block;
+    cursor: pointer;
+  }
+
+  .forside_knap {
+    position: fixed;
+    z-index: 4;
+    width: 100px;
+    top: 1%;
+    left: 3%;
+  }
+
   .menu li {
     display: inline;
     margin-inline: 2.5rem;
+  }
+
+  .menu_support {
+    padding-bottom: 2rem;
   }
 
   .hidden {
@@ -155,4 +180,10 @@
     display: none;
   }
   /*BURGERMENU SLUT*/
+}
+
+@media only screen and (min-width: 1250px) {
+  .forside_knap {
+    width: 150px;
+  }
 }
