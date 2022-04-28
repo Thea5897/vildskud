@@ -74,6 +74,7 @@ button:hover {
   gap: 50px;
   justify-content: center;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .section_3 {
@@ -351,12 +352,53 @@ button:hover {
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .section_9 {
     height: 80vh;
   }
   .section_10 {
     height: 80vh;
     padding-top: 300px;
+  }
+}
+
+.text {
+  text-align: center;
+  padding-top: 80px;
+}
+.text p {
+  padding-top: 10px;
+  cursor: pointer;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.face {
+  height: 60px;
+  width: 40px;
+  cursor: pointer;
+}
+.insta {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.spons {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .social {
+    padding-top: 150px;
   }
 }
