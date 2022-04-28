@@ -168,6 +168,10 @@ main {
   max-width: 1000px;
 }
 
+.second_section {
+  max-width: 1000px;
+}
+
 hr {
   border: 1px solid var(--vox);
   margin-top: 1rem;
@@ -231,7 +235,28 @@ b {
     grid-template-columns: 1fr 1fr;
   }
 
+  #dag_oversigt {
+    width: 30vw;
+    height: 25vh;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
   .oversigt {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+
+  .oversigt_h3 {
+    margin-top: 3rem;
+    font-size: medium;
+  }
+
+  .oversigt_h4 {
+    font-size: large;
+    font-weight: 800;
   }
 }
 
@@ -243,5 +268,79 @@ b {
   .programmet {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .oversigt {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+  }
+
+  #dag_oversigt {
+    width: 20vw;
+    height: 25vh;
+  }
+}
+
+@media (min-width: 1050px) {
+  #dag_oversigt {
+    width: 20vw;
+    height: 22vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #dag_oversigt {
+    width: 18vw;
+    height: 20vh;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  border: 2px solid white;
+}
+
+.text {
+  text-align: center;
+  padding-top: 80px;
+}
+.text p {
+  padding-top: 10px;
+  cursor: pointer;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.face {
+  height: 60px;
+  width: 40px;
+  cursor: pointer;
+}
+.insta {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.spons {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .social {
+    padding-top: 150px;
   }
 }
