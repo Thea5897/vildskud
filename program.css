@@ -113,6 +113,7 @@ main {
   border: 1px solid;
   margin-bottom: 0.5rem;
   width: 15rem;
+  cursor: pointer;
 }
 
 .xenon_h4 {
@@ -124,6 +125,7 @@ main {
   border: 1px solid;
   margin-bottom: 0.5rem;
   width: 15rem;
+  cursor: pointer;
 }
 
 .vox_h4 {
@@ -135,6 +137,7 @@ main {
   border: 1px solid;
   margin-bottom: 0.5rem;
   width: 15rem;
+  cursor: pointer;
 }
 
 .anemonen_h4 {
@@ -146,6 +149,7 @@ main {
   border: 1px solid;
   margin-bottom: 0.5rem;
   width: 15rem;
+  cursor: pointer;
 }
 
 .zeppelin_h4 {
@@ -157,6 +161,7 @@ main {
   border: 1px solid;
   margin-bottom: 0.5rem;
   width: 15rem;
+  cursor: pointer;
 }
 
 .first_section {
