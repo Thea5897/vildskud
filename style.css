@@ -78,10 +78,10 @@ button:hover {
 }
 
 .section_3 {
-  height: 120vh;
+  height: 140vh;
   background-color: var(--christianshavn);
   margin-top: 50px;
-  padding-top: 270px;
+  padding-top: 170px;
 }
 .section_3 h2 {
   padding-left: 25px;
@@ -115,7 +115,7 @@ button:hover {
 }
 
 .section_4 {
-  height: 120vh;
+  height: 140vh;
   background-color: var(--xenon);
   margin-top: 50px;
   padding-top: 10px;
@@ -217,16 +217,16 @@ button:hover {
 
 .section_5 {
   display: none;
-  height: 120vh;
+  height: 140vh;
   background-color: var(--anemonen);
   margin-top: 0px;
   padding-bottom: 475px;
 }
 
 .section_6 {
-  height: 120vh;
+  height: 140vh;
   background-color: var(--box);
-  padding-top: 270px;
+  padding-top: 180px;
   padding-bottom: 10px;
 }
 .section_6 h2 {
@@ -275,9 +275,9 @@ button:hover {
 }
 
 .section_7 {
-  height: 120vh;
+  height: 140vh;
   background-color: var(--zeppelin);
-  padding-top: 270px;
+  padding-top: 180px;
 }
 .section_7 h2 {
   padding-left: 25px;
@@ -297,7 +297,7 @@ button:hover {
 
 .section_8 {
   display: none;
-  height: 120vh;
+  height: 140vh;
   background-color: var(--christianshavn);
   margin-top: 0px;
   padding-bottom: 475px;
@@ -328,7 +328,7 @@ button:hover {
 .section_9 {
   display: flex;
   justify-content: center;
-  height: 120vh;
+  height: 140vh;
   background-color: var(--vox);
   margin-top: 0px;
 }
@@ -336,7 +336,7 @@ button:hover {
 .section_10 {
   text-align: center;
   padding-top: 380px;
-  height: 120vh;
+  height: 140vh;
   background-color: var(--zeppelin);
   font-size: 40px;
 }
